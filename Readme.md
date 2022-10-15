@@ -2,15 +2,15 @@
 
 A [Trybe](https://www.betrybe.com/) é uma escola de tecnologia com foco em formação de Desenvolvedores Web e o projeto Todo List foi proposto como atividade de aprimoramento dos estudos sobre os fundamentos do desenvolvimento web.
 
-#### Objetivo
+### Objetivo
 
 A aplicação desenvolvida é uma lista de tarefas que permite adicionar, mover, finalizar e deletar uma tarefa.
 
-#### Tecnologias e Ferramentas
+### Tecnologias e Ferramentas
 
-O porjeto foi desenvolvido utilizando HTML, CSS e JavaScript.
+O projeto foi desenvolvido utilizando HTML, CSS e JavaScript.
 
-#### Execução
+### Execução
 
 Para executar o projeto faça o clone deste repositório usando o comando abaixo.
 
