@@ -32,11 +32,10 @@ main {
   border-radius: 20px;
   padding: 20px 20px;
   margin-right: 50px;
-  width: 18%;
+  width: 20%;
 }
 
 #containerNav button {
-  display: block;
   width: 100%;
   padding: 10px 20px;
   margin-bottom: 2px;
@@ -49,8 +48,7 @@ main {
 }
 
 #container {
-  display: block;
-  width: 40%;
+  width: 50%;
 }
 
 input {
@@ -92,4 +90,36 @@ input::placeholder {
 
 .completed {
   text-decoration: line-through solid rgb(0, 0, 0);
+}
+
+@media (max-width: 900px ) {
+  main {
+    flex-direction: column;
+  }
+
+  #containerNav {
+    width: 90%;
+    display: flex;
+  }
+
+  #containerNav button {
+    padding: 10px 10px;
+  }
+
+  #container {
+    width: 92%;
+    margin-top: 3%;
+  }
+}
+
+@media (max-width: 780px ) {
+
+  #containerNav {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #containerNav button {
+    width: 50%;
+  }
 }
