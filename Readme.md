@@ -16,6 +16,10 @@ Para executar o projeto faça o clone deste repositório usando o comando abaixo
 
     git clone git@github.com:larissaperinoto/todo-list.git
 
+Após o clone, instale as dependências do projeto com o comando abaixo.
+
+    npm install
+
 Para utilizar a aplicação clique [aqui](https://larissaperinoto.github.io/todo-list/).
 
 
