@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Project to do List</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Minha Lista de Tarefas</h1>
+      <p id="funcionamento">Clique duas vezes em um item para marcá-lo como <span>completo</span></p>
+    </header>
+    <main>
+      <aside id="containerNav">
+        <button id="criar-tarefa">Adicionar</button>
+        <button id="mover-cima">Mover para cima</button>
+        <button id="mover-baixo">Mover para baixo</button>
+        <button id="salvar-tarefas">Salvar lista</button>
+        <button id="remover-selecionado">Remover selecionado</button>
+        <button id="remover-finalizados">Remover finalizados</button>
+        <button id="apaga-tudo">Remover todos</button>
+      </aside>
+      <section id="container">
+
+        <div id="containerList">
+          <input id="texto-tarefa" type="text" placeholder="Insira uma tarefa">
+          <ol id="lista-tarefas"></ol>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
